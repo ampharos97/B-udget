@@ -1,0 +1,19 @@
+
+body {
+    color: #c15605;
+    background-color: #16181d;
+    text-align: center;   
+}
+
+#transaction_list li {
+    background-color: #20242b;
+    color: #f0e9e9;
+    list-style: none;
+    margin: 15px auto;
+    box-shadow: 1px 1px 1px 1px rgb(96, 92, 92);
+    max-width: 200px;
+}
+
+#transaction_list button {
+    margin-left: 20px;
+}

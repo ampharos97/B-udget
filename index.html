@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-udget App</title>
+</head>
+<body>
+
+Welcome to B-udget
+
+<p> This is a simple budget app that helps you track your expenses and manage your finances effectively. You can add your income, expenses, and see a summary of your budget.</p>
+
+Label: <input type="text" id="label_input">
+Amount: <input type="text" id="amount_input">
+Date: <input type="date" id="date_input">
+<button id="add_transaction">Add transaction</button>
+<p id="error_display" style="color: red;"></p>
+
+<p>Transactions:</p>
+<ul id="transaction_list"></ul>
+
+
+<p id="budget_display"></p>
+
+<script src="./app.js"></script>
+</body>
+</html>
